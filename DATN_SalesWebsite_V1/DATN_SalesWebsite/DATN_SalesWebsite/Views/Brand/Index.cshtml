@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    Paginate pager = new Paginate();
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+<partial name="_SliderPartial" />
+<div b-jjbd2nyio7="" class="call-to-action">
+    <div b-jjbd2nyio7="" class="container-fluid">
+        <div b-jjbd2nyio7="" class="row align-items-center">
+            <div b-jjbd2nyio7="" class="col-md-6">
+                <h1 b-jjbd2nyio7="">@ViewBag.Slug</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="product-detail">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-md-4">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a>@item.Name</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <a>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="~/media/products/@item.Image" alt="@item.Name" width="400" height="400">
+                                        </a>
+                                        <div class="product-action">
+                                            <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="product-price">
+                                    <h3>@item.Price.ToString("#,##0 VNĐ")</h3>
+                                    <a class="btn" asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <!-- Pagination Start -->
+                <div class="col-md-12">
+                    <partial name="_paging" model="@pager"></partial>
+                </div>
+                <!-- Pagination Start -->
+            </div>
+
+            <!-- Side Bar Start -->
+            <div class="col-lg-4 sidebar">
+                @Html.Partial("_SidebarPartial")
+            </div>
+            <!-- Side Bar End -->
+        </div>
+
+    </div>
+
+</div>

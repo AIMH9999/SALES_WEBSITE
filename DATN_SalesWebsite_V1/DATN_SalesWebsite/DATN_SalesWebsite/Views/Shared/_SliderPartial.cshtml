@@ -1,0 +1,17 @@
+﻿<div class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md">
+                <div class="header-slider normal-slider" style="display: flex; overflow: hidden; position: relative; width: 100%;">
+                    @foreach (var item in ViewBag.Sliders)
+                    {
+                        <div class="header-slider-item" style="flex: 1 0 auto; width: 100%; height: auto; display: flex; justify-content: center;">
+                            <img src="~/media/sliders/@item.Image" alt="@item.Name" style="width: 100%; max-width: 1200px; height: auto;" />
+                        </div>
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

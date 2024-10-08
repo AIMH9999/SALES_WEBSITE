@@ -1,0 +1,128 @@
+﻿@model IEnumerable<DATN_SalesWebsite.Models.OrderDetails>
+@{
+    var OrderCode = Model.FirstOrDefault()?.OrderCode ?? "Không có mã đơn hàng";
+    decimal subtotal = 0;
+    decimal total = 0;
+}
+@{
+    ViewData["Title"] = "Orders Detail";
+    // Paginate pager = new Paginate();
+    // int pageNo = 0;
+    // if (ViewBag.Pager != null)
+    // {
+    //     pager = ViewBag.Pager;
+    //     pageNo = pager.CurrentPage;
+    // }
+}
+<div b-jjbd2nyio7="" class="call-to-action">
+    <div b-jjbd2nyio7="" class="container-fluid">
+        <div b-jjbd2nyio7="" class="row align-items-center">
+            <div b-jjbd2nyio7="" class="col-md-6">
+                <h1 b-jjbd2nyio7="">
+                    Order: <span style="color: orange;">@OrderCode.ToString()</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<table class="table table-bordered table-hover table-striped align-middle" id="myTable">
+    <thead class="thead-dark text-center">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Code</th>
+            <th scope="col">User Name</th>
+            <th scope="col">User Email</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            subtotal = item.Quantity * item.Price;
+            total += subtotal;
+            <tr>
+                <input type="hidden" asp-for="@item.OrderCode" class="getId" />
+                <th scope="row" class="text-center">@item.Id</th>
+                <td class="text-center">@item.OrderCode</td>
+                <td>@item.UserName</td>
+                <td>@item.UserEmail</td>
+                <td>@item.Product.Name</td>
+                <td class="text-center">
+                    <img src="~/media/products/@item.Product.Image" alt="@item.Product.Name" class="img-fluid" style="max-width: 150px; height: auto;">
+                </td>
+                <td class="text-right">@String.Format("{0:N0} VNĐ", item.Product.Price)</td>
+                <td class="text-center">@item.Quantity</td>
+                <td class="text-right">@String.Format("{0:N0} VNĐ", (item.Quantity * item.Price))</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr class="table-secondary">
+            <th colspan="8" class="text-right">Total:</th>
+            <td class="text-right"><strong>@String.Format("{0:N0} VNĐ", total)</strong></td>
+        </tr>
+        <tr>
+            <td colspan="9" class="text-right">
+                <select class="form-control select-update-order w-100">
+                    @if (ViewBag.Status == 1)
+                    {
+                        <option value="1" selected>Đơn hàng mới</option>
+                        <option value="2">Đơn hàng đã xác nhận</option>
+                        <option value="3">Đơn hàng thành công</option>
+                    }
+                    else if (ViewBag.Status == 2)
+                    {
+                        <option value="1">Đơn hàng mới</option>
+                        <option value="2" selected>Đơn hàng đã xác nhận</option>
+                        <option value="3">Đơn hàng thành công</option>
+                    }
+                    else
+                    {
+                        <option value="1">Đơn hàng mới</option>
+                        <option value="2">Đơn hàng đã xác nhận</option>
+                        <option value="3" selected>Đơn hàng thành công</option>
+                    }
+                </select>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+@* <partial name="_paging" model="@pager"></partial> *@
+<a asp-area="Admin" asp-action="Index" asp-controller="Order" class="btn btn-success btn-lg" style="margin-top:30px">Back to List Order</a>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.select-update-order').change(function () {
+                var status = $(this).val();
+                var ordercode = $('.getId').val();
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("UpdateOrder")",
+                    data: { status: status, ordercode: ordercode },
+                    success: function (result) {
+                        if (result.success) {
+                            Swal.fire("Cập nhập đơn hàng thành công");
+                        }
+                        else {
+                            Swal.fire("Cập nhập đơn hàng thất bại: " + result.message);
+                        }
+                    },
+                    error: function (req, status, error) {
+                        console.error("Error updating order: " + error);
+                    }
+
+                });
+            });
+        });
+    </script>
+    <script>let table = new DataTable('#myTable');</script>
+        
+}

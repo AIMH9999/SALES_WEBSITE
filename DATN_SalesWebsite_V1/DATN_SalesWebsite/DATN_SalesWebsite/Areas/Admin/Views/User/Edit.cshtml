@@ -1,0 +1,78 @@
+﻿@model AppUserModel
+@{
+    ViewData["Title"] = "Edit User";
+}
+<div class="call-to-action mb-4">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Create User</h1> <!-- Thay đổi tiêu đề cho phù hợp -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-8 mx-auto">
+    <div class="tab-content p-5 shadow rounded bg-light">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <!-- Validation Summary -->
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-4"></div>
+
+            <!-- Email Field -->
+            <div class="mb-4">
+                <div class="form-group">
+                    <label for="Email" class="form-label">Email <span class="text-danger">*</span></label>
+                    <input asp-for="Email" class="form-control" placeholder="Enter your email" required />
+                    <span asp-validation-for="Email" class="text-danger" />
+                </div>
+            </div>
+
+            <!-- User Name Field -->
+            <div class="mb-4">
+                <div class="form-group">
+                    <label for="UserName" class="form-label">User Name <span class="text-danger">*</span></label>
+                    <input asp-for="UserName" class="form-control" placeholder="Enter your username" required />
+                    <span asp-validation-for="UserName" class="text-danger" />
+                </div>
+            </div>
+
+            <!-- Password Field -->
+            <div class="mb-4">
+                <div class="form-group">
+                    <label for="Password" class="form-label">Password <span class="text-danger">*</span></label>
+                    <input asp-for="PasswordHash" class="form-control" placeholder="Enter your password" readonly required />
+                    <span asp-validation-for="PasswordHash" class="text-danger" />
+                </div>
+            </div>
+
+            <!-- Roles Field -->
+            <div class="mb-4">
+                <div class="form-group">
+                    <label for="RoleId" class="form-label">Roles <span class="text-danger">*</span></label>
+                    <select asp-for="RoleId" class="form-control" asp-items="ViewBag.Roles" required>
+                    </select>
+                    <span asp-validation-for="RoleId" class="text-danger" />
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary px-5">Update</button>
+            </div>
+        </form>
+
+        <!-- Back Button -->
+        <div class="text-center mt-4">
+            <a asp-action="Index" class="btn btn-secondary">Back to List Users</a>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

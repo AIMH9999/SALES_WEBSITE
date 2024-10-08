@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DATN_SalesWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DATN_SalesWebsite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\images\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\brand-1.png",
+      "PackagePath": "staticwebassets\\imgs\\brand-1.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\brand-2.png",
+      "PackagePath": "staticwebassets\\imgs\\brand-2.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\brand-3.png",
+      "PackagePath": "staticwebassets\\imgs\\brand-3.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\brand-4.png",
+      "PackagePath": "staticwebassets\\imgs\\brand-4.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\brand-5.png",
+      "PackagePath": "staticwebassets\\imgs\\brand-5.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\brand-6.png",
+      "PackagePath": "staticwebassets\\imgs\\brand-6.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-5.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-6.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-7.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\category-8.jpg",
+      "PackagePath": "staticwebassets\\imgs\\category-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\godaddy.svg",
+      "PackagePath": "staticwebassets\\imgs\\godaddy.svg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\logo.png",
+      "PackagePath": "staticwebassets\\imgs\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\norton.svg",
+      "PackagePath": "staticwebassets\\imgs\\norton.svg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\payment-method.png",
+      "PackagePath": "staticwebassets\\imgs\\payment-method.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-10.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-5.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-6.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-7.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-8.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\product-9.jpg",
+      "PackagePath": "staticwebassets\\imgs\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\review-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\review-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\review-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\review-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\review-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\review-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\slider-2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\slider-3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\slider-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\imgs\\ssl.svg",
+      "PackagePath": "staticwebassets\\imgs\\ssl.svg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\lib\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\lib\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\lib\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\lib\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\lib\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\lib\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\lib\\slick\\slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\044d121f-a9e3-4e83-b03f-38300988c51c_PC_2-pc-1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\044d121f-a9e3-4e83-b03f-38300988c51c_PC_2-pc-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\13593b55-ea68-4232-b736-185a8ea3e2f4_a2b0e9fc530a40609da140a4cdbf1d28.png",
+      "PackagePath": "staticwebassets\\media\\products\\13593b55-ea68-4232-b736-185a8ea3e2f4_a2b0e9fc530a40609da140a4cdbf1d28.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\16006989-f31a-4c6e-b0f3-a95e83c6bf89_PC_2-pc-1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\16006989-f31a-4c6e-b0f3-a95e83c6bf89_PC_2-pc-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\16dcd610-c02f-401f-ac4b-cfd9512ff393_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\16dcd610-c02f-401f-ac4b-cfd9512ff393_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\21763e14-863a-4b9d-9eab-8aff5fb0927d_2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\21763e14-863a-4b9d-9eab-8aff5fb0927d_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\26b62ff2-252d-4080-80e3-79c61fa0b1c0_a2b0e9fc530a40609da140a4cdbf1d28.png",
+      "PackagePath": "staticwebassets\\media\\products\\26b62ff2-252d-4080-80e3-79c61fa0b1c0_a2b0e9fc530a40609da140a4cdbf1d28.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\37bb6ba0-843d-4bf8-9b98-ff5a26a9700e_PC_2-pc-1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\37bb6ba0-843d-4bf8-9b98-ff5a26a9700e_PC_2-pc-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\83b4bb28-55cd-471a-a4e9-e0cb9e6a5841_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\83b4bb28-55cd-471a-a4e9-e0cb9e6a5841_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\83f75246-ae26-494f-a1e8-6686d25e035b_PC_2-pc-1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\83f75246-ae26-494f-a1e8-6686d25e035b_PC_2-pc-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\products\\dd29eb45-1437-4ada-82c7-56efdac931fd_a2b0e9fc530a40609da140a4cdbf1d28.png",
+      "PackagePath": "staticwebassets\\media\\products\\dd29eb45-1437-4ada-82c7-56efdac931fd_a2b0e9fc530a40609da140a4cdbf1d28.png"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\sliders\\7d1a2691-91ff-4599-8b77-4e0192d08af8_b48bbe5d-cad9-46c0-b916-64cccb8ca2a3_banner_1695193420848f74187b68662a6d68855961a064b2.jpeg",
+      "PackagePath": "staticwebassets\\media\\sliders\\7d1a2691-91ff-4599-8b77-4e0192d08af8_b48bbe5d-cad9-46c0-b916-64cccb8ca2a3_banner_1695193420848f74187b68662a6d68855961a064b2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\sliders\\b48bbe5d-cad9-46c0-b916-64cccb8ca2a3_banner_1695193420848f74187b68662a6d68855961a064b2.jpeg",
+      "PackagePath": "staticwebassets\\media\\sliders\\b48bbe5d-cad9-46c0-b916-64cccb8ca2a3_banner_1695193420848f74187b68662a6d68855961a064b2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\media\\sliders\\d22f247c-6607-4dc2-97e4-bb6c1535b43e_banner_170445142354207818e5028f0c1f969f8e17c9fbac.jpeg",
+      "PackagePath": "staticwebassets\\media\\sliders\\d22f247c-6607-4dc2-97e4-bb6c1535b43e_banner_170445142354207818e5028f0c1f969f8e17c9fbac.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\infin\\Desktop\\DATN_SalesWebsite_V1\\DATN_SalesWebsite\\DATN_SalesWebsite\\wwwroot\\sitecss\\style.css",
+      "PackagePath": "staticwebassets\\sitecss\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DATN_SalesWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DATN_SalesWebsite.props",
+      "PackagePath": "build\\DATN_SalesWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DATN_SalesWebsite.props",
+      "PackagePath": "buildMultiTargeting\\DATN_SalesWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DATN_SalesWebsite.props",
+      "PackagePath": "buildTransitive\\DATN_SalesWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

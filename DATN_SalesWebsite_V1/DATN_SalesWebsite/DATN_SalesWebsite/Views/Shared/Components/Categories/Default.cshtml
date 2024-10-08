@@ -1,0 +1,14 @@
+﻿@model IEnumerable<CategoryModel>
+
+    
+    <h2 class="title">Category</h2>
+@foreach (var item in Model)
+{
+    <nav class="navbar bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Category" asp-route-Slug="@item.Slug"><i></i>@item.Name</a>
+            </li>
+        </ul>
+    </nav>
+}

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "List of all products";
+    // Paginate pager = new Paginate();
+    // int pageNo = 0;
+    // if (ViewBag.Pager != null)
+    // {
+    //     pager = ViewBag.Pager;
+    //     pageNo = pager.CurrentPage;
+    // }
+}
+<div b-jjbd2nyio7="" class="call-to-action">
+    <div b-jjbd2nyio7="" class="container-fluid">
+        <div b-jjbd2nyio7="" class="row align-items-center">
+            <div b-jjbd2nyio7="" class="col-md-6">
+                <h1 b-jjbd2nyio7="">List Products</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table table-bordered table-hover table-striped align-middle" id="myTable">
+    <thead class="thead-dark text-center">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Description</th>
+            <th scope="col">Product Price (VNĐ)</th>
+            <th scope="col">Product Image</th>
+            <th scope="col">Product Slug</th>
+            <th scope="col">Product Category</th>
+            <th scope="col">Product Brand</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row" class="text-center">@item.Id</th>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td class="text-right">@item.Price.ToString("#,##0 VNĐ")</td>
+                <td class="text-center"><img src="~/media/products/@item.Image" width="120" alt="@item.Name" class="img-fluid"></td>
+                <td>@item.Slug</td>
+                <td>@item.Category.Name</td>
+                <td>@item.Brand.Name</td>
+                <td class="text-center">
+                    <a asp-action="Edit" asp-controller="Product" asp-route-Id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-controller="Product" asp-route-Id="@item.Id" class="btn btn-danger btn-sm confirmDeletion">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@* <partial name="_paging" model="@pager"></partial> *@
+
+<a asp-area="Admin" asp-action="Create" asp-controller="Product" class="btn btn-success btn-lg" style="margin-top:30px">Add Product</a>
+
+
+@section Scripts {
+    <script>let table = new DataTable('#myTable');</script>
+
+}

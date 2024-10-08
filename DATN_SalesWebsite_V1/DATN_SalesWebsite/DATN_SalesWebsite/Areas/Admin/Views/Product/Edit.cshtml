@@ -1,0 +1,132 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Edit Product";
+}
+<div b-jjbd2nyio7="" class="call-to-action">
+    <div b-jjbd2nyio7="" class="container-fluid">
+        <div b-jjbd2nyio7="" class="row align-items-center">
+            <div b-jjbd2nyio7="" class="col-md-6">
+                <h1 b-jjbd2nyio7="">Edit Products</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-9 mx-auto">
+    <div class="tab-content p-4 shadow rounded bg-light">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Name" class="form-label">Name</label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger" />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Price" class="form-label">Price</label>
+                        <input asp-for="Price" class="form-control" type="number" min="0" step="0.01" required />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Description" class="form-label">Description</label>
+                        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                        <span asp-validation-for="Description" class="text-danger" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="CategoryId" class="form-label">Category</label>
+                        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Categories">
+                            <option>--Choose category--</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger" />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="BrandId" class="form-label">Brand</label>
+                        <select asp-for="BrandId" class="form-control" asp-items="ViewBag.Brands">
+                            <option>--Choose brand--</option>
+                        </select>
+                        <span asp-validation-for="BrandId" class="text-danger" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Upload Section -->
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="Image" class="form-label">Image</label>
+                        <input asp-for="ImageUpload" class="form-control" />
+                        <span asp-validation-for="Image" class="text-danger" />
+                        <img src="~/media/products/@Model.Image" width="120">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary px-5">Update</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Back to List Product Link -->
+        <div class="row mt-3">
+            <div class="col-md-12 text-center">
+                <a asp-action="Index" class="btn btn-secondary">Back to List Product</a>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Description', {
+            enterMode: CKEDITOR.ENTER_BR
+        });
+
+        function decodeHtmlEntities(text) {
+            var txt = document.createElement("textarea");
+            txt.innerHTML = text;
+            return txt.value;
+        }
+
+        $('form').on('submit', function () {
+            var editorData = CKEDITOR.instances.Description.getData();
+
+            // Loại bỏ các thẻ HTML
+            var plainText = editorData.replace(/<[^>]+>/g, '');
+
+            // Giải mã các ký tự HTML entities như &agrave;, &iacute;, &ecirc;
+            plainText = decodeHtmlEntities(plainText);
+
+            // Đặt lại giá trị vào textarea để gửi lên server
+            CKEDITOR.instances.Description.setData(plainText);
+        });
+    </script>
+
+
+}
+
+
+
